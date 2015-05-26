@@ -8,28 +8,27 @@
 </head>
 
 <body>
-    <nav id="myNavbar" class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Ragecastle.org</a>
-                <ul class="nav navbar-nav">
-                    <li class="unactive"><a href="index.html" target="_self">Home</a>
-                    </li>
-                    <li class="about"><a href="#" target="_self">About</a>
-                    </li>
-                    <li class="unactive"><a href="contact.html" target="_self">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbarCollapse">
+    <nav id="myNavbar" class="navbar navbar-default navbar-fixed-top " role="navigation">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Ragecastle.org</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="unactive"><a href="index.html" target="_self">Home</a>
+                        </li>
+                        <li class="active"><a href="#" target="_self">About</a>
+                        </li>
+                        <li class="unactive"><a href="contact.html" target="_self">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -37,7 +36,7 @@
         <h1>About</h1>
         <p>We made this site as a hub for our projects and current hobbies.</p>
     </div>
-    <div class=" col-xs-6">
+    <div class=" col-sm-6 col-lg-6">
         <h2>James Hall</h2>
         <img src="http://www.ragecastle.org/resources/images/james_pic.jpg" alt="James Picture" style="width:225px;height:225px">
         <a href="https://www.facebook.com/profile.php?id=100007322625844"><img src="http://static.viewbook.com/images/social_icons/facebook_32.png">
@@ -49,7 +48,7 @@
         <h3>About me</h3>
         <p>I enjoy black and white photography and looking to the right.</p>
     </div>
-    <div class=" col-xs-6">
+    <div class=" col-sm-6 col-lg-6">
         <h2>Matt Rocco</h2>
         <img src="http://www.ragecastle.org/resources/images/rocco_pic.jpg" alt="Rocco Picture" style="width:225px;height:225px">
         <a href="https://www.facebook.com/roccoma"> <img src="http://static.viewbook.com/images/social_icons/facebook_32.png">
@@ -64,9 +63,9 @@
         <p>Currently I am workong on wesbite design using <strong>HTML, CSS, and Javascript</strong>.I have also been known to work on iOS applications using <strong>Objective-C </strong>and<strong> Swift.</strong>
         </p>
         <h3>Stuff I Get Paid For</h3>
-        <p>I have working at <strong>Electric Boat</strong> in Groton, CT as a Tactical Software Engineer developing in the <strong>Ada</strong> software language.</p>
+        <p>I have working at <strong>Electric Boat</strong> in Groton, CT as a Tactical Software Engineer developing and testing in the <strong>Ada</strong> software language.</p>
         <h3>Education and Classes</h3>
-        <p>Currently I am enrolled at <strong>Worcester Polytechnic Institute</strong> in the System Engineering M.S program that I hope to complete next year. I completed my undergrad in Computer Engineering at <strong>Clarkson Universtiy</strong> in 2013. Lately I have been working on classes on <a href="www.codeacademy.com">Code Academy</a> and <a href="www.codeschool.com">Code School</a> on topics such as <strong>HTML, CSS, Javascript, and Angular JS.</strong>
+        <p>Currently I am enrolled at <strong>Worcester Polytechnic Institute</strong> in the System Engineering M.S program that I will complete in Fall 2016. I completed my undergrad in Computer Engineering at <strong>Clarkson Universtiy</strong> in 2013. Lately I have been working on classes on <a href="www.codeacademy.com">Code Academy</a> and <a href="www.codeschool.com">Code School</a> on topics such as <strong>HTML, CSS, Javascript, and Angular JS.</strong>
         </p>
 
     </div>
@@ -80,6 +79,8 @@
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </body>
 
 </html>
